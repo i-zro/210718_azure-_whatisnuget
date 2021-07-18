@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:_210718_whatisnuget"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="White">
+        <StackPanel VerticalAlignment="Center">
+            <Button Click="Button_Click" Width="100px" HorizontalAlignment="Center" Content="Click Me" Margin="10"/>
+            <TextBlock Name="TextBlock" HorizontalAlignment="Center" Text="TextBlock" Margin="10"/>
+        </StackPanel>
     </Grid>
 </Window>
